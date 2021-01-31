@@ -13,7 +13,11 @@ Compress videos using FFMpeg algorithm
   * Compression will take 1-5 min per video. The output videos will be have .mp4 extension.
 
 ## Installation
-- Download and install FFMpeg (http://ffmpeg.org/)
+- Download and install [FFMpeg](http://ffmpeg.org/)
   * Follow [wikiHow](https://www.wikihow.com/Install-FFmpeg-on-Windows) or this [guide](https://github.com/adaptlearning/adapt_authoring/wiki/Installing-FFmpeg) for help installing FFmpeg.
 - Download this repository.
 - Run ffmpegsetup.m and follow its instructions to specify the path of the ffmpeg executable file.
+
+## Dependencies
+- [FFMpeg Toolbox](https://www.mathworks.com/matlabcentral/fileexchange/42296-ffmpeg-toolbox) (already included in this repository)
+- [uipickfiles: uigetfile on steroids](https://www.mathworks.com/matlabcentral/fileexchange/10867-uipickfiles-uigetfile-on-steroids) (already included in this repository)
