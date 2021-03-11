@@ -11,7 +11,7 @@ Compress videos using FFMpeg algorithm
 5. Select whether to delete source files or not. If you select Yes, you will be asked for confirmation (deafult is Don't delete).
 6. Select the compression factor (between 1 and 51, default 25 corresponding to a compression of ~18 times)
    * A compression factor of 25 (about 18 times) should be fine in most cases
-   * Check [Mathis & Warren 2018](https://doi.org/10.1101/457242) and figure below.
+   * Check [Mathis & Warren 2018](https://doi.org/10.1101/457242) and example below.
 7. Start FFMpeg compression!
    * Compression will take 1-5 min per video. The output videos will have .mp4 extension.
 
@@ -27,3 +27,4 @@ Compress videos using FFMpeg algorithm
 
 ## Example
 The same frame of an example uncompressed (left) and compressed (10x) video.
+![image](https://user-images.githubusercontent.com/29898879/110823627-4cafe800-8260-11eb-9b56-e18580e7fed8.png)
