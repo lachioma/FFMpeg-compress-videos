@@ -17,7 +17,7 @@ Compress videos using FFMpeg algorithm
 
 ## Installation
 - Download and install [FFMpeg](http://ffmpeg.org/)
-  * It is a bit more tedious than installing typical software, so follow [wikiHow](https://www.wikihow.com/Install-FFmpeg-on-Windows) or this [guide](https://github.com/adaptlearning/adapt_authoring/wiki/Installing-FFmpeg) for installing FFMpeg.
+  * Installing FFMpeg is a bit more tedious than typical software, so follow [wikiHow](https://www.wikihow.com/Install-FFmpeg-on-Windows) or this [guide](https://github.com/adaptlearning/adapt_authoring/wiki/Installing-FFmpeg).
 - Download this repository.
 - Run ffmpegsetup.m and follow its instructions to specify the path of the ffmpeg executable file.
 
