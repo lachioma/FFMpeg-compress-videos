@@ -13,7 +13,7 @@ Compress videos using FFMpeg algorithm
 6. Select the compression factor (between 1 and 51, default 25 corresponding to a compression of ~18 times)
    * A compress factor of 20 (about 10 times) should be fine in most cases. 
 7. Start FFMpeg compression!
-   * Compression will take 1-5 min per video. The output videos will be have .mp4 extension.
+   * Compression will take 1-5 min per video. The output videos will have .mp4 extension.
 
 ## Installation
 - Download and install [FFMpeg](http://ffmpeg.org/)
