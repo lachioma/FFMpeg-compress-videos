@@ -9,9 +9,9 @@ Compress videos using FFMpeg algorithm
 3. Select Destination folder (default: destination folder is the same of the source video). Note: if you specify a folder, the same destination folder will be used for all videos regardless of their respective source folder.
 4. A prefix or suffix can be added to the file name. If you specify any, the same prefix/suffix will be added to the file name of all videos.
 5. Select whether to delete source files or not. If you select Yes, you will be asked for confirmation (deafult is Don't delete).
-   * For some reason, I do not get the "delete source files" to work, delete will fail for permission denial, even with Matlab running as administrator or executing fclose('all') before delete.
 6. Select the compression factor (between 1 and 51, default 25 corresponding to a compression of ~18 times)
-   * A compress factor of 20 (about 10 times) should be fine in most cases. 
+   * A compression factor of 25 (about 18 times) should be fine in most cases
+   * Check [Mathis & Warren 2018](https://doi.org/10.1101/457242) and figure below.
 7. Start FFMpeg compression!
    * Compression will take 1-5 min per video. The output videos will have .mp4 extension.
 
@@ -24,3 +24,6 @@ Compress videos using FFMpeg algorithm
 ## Dependencies
 - [FFMpeg Toolbox](https://www.mathworks.com/matlabcentral/fileexchange/42296-ffmpeg-toolbox) (already included in this repository)
 - [uipickfiles: uigetfile on steroids](https://www.mathworks.com/matlabcentral/fileexchange/10867-uipickfiles-uigetfile-on-steroids) (already included in this repository)
+
+## Example
+The same frame of an example uncompressed (left) and compressed (10x) video.
