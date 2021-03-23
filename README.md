@@ -12,7 +12,7 @@ Compress videos using FFMpeg algorithm
    * If you select Delete On, you will be asked for confirmation.
    * The app will try to move files to the Recycle Bin, rather then deleting permanently. Note: files will be permanently deleted if they are located in an external or network drive.
 6. Select the compression factor (x264Crf between 1 and 51 (default 25, corresponding to a file size of ~18 times smaller))
-   * A compression factor of 25 (about 18 times smaller file size) should be fine in most cases
+   * A compression factor of 25 (~18 times smaller file size) should be fine in most cases
    * Check [Mathis & Warren 2018](https://doi.org/10.1101/457242) and example below.
 7. Start FFMpeg compression!
    * Compression will take 1-5 min per video. The output videos will have .mp4 extension.
