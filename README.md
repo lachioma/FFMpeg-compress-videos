@@ -8,7 +8,9 @@ Compress videos using FFMpeg algorithm
 2. All the video files found will be listed in the left listbox. From there, select the videos you want to compress and move them to the right listbox.
 3. Select Destination folder (default: destination folder is the same of the source video). Note: if you specify a folder, the same destination folder will be used for all videos regardless of their respective source folder.
 4. A prefix or suffix can be added to the file name. If you specify any, the same prefix/suffix will be added to the file name of all videos.
-5. Select whether to delete source files or not. If you select Yes, you will be asked for confirmation (deafult is Don't delete).
+5. Select whether to delete source files or not (deafult is Delete Off)
+   * If you select Delete On, you will be asked for confirmation.
+   * The app will try to move files to the Recycle Bin, rather then deleting permanently. Note: files will be permanently deleted if they are located in an external or network drive.
 6. Select the compression factor (x264Crf between 1 and 51 (default 25, corresponding to a file size of ~18 times smaller))
    * A compression factor of 25 (about 18 times smaller file size) should be fine in most cases
    * Check [Mathis & Warren 2018](https://doi.org/10.1101/457242) and example below.
