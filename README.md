@@ -13,7 +13,7 @@ Compress videos using FFMpeg algorithm
    * The app will try to move files to the Recycle Bin, rather then deleting permanently. Note: files will be permanently deleted if they are located in an external or network drive.
 6. Select the compression factor (x264Crf between 1 and 51 (default 25, corresponding to a file size of ~18 times smaller))
    * A compression factor of 25 (~18 times smaller file size) should be fine in most cases
-   * Check [Mathis & Warren 2018](https://doi.org/10.1101/457242) and example below.
+   * Check [Mathis & Warren 2018](https://doi.org/10.1101/457242) and examples below.
 7. Start FFMpeg compression!
    * Compression will take 1-5 min per video. The output videos will have .mp4 extension.
 
@@ -27,6 +27,10 @@ Compress videos using FFMpeg algorithm
 - [FFMpeg Toolbox](https://www.mathworks.com/matlabcentral/fileexchange/42296-ffmpeg-toolbox) (already included in this repository)
 - [uipickfiles: uigetfile on steroids](https://www.mathworks.com/matlabcentral/fileexchange/10867-uipickfiles-uigetfile-on-steroids) (already included in this repository)
 
-## Example
+## Examples
 The same frame from an example uncompressed (left) and 10x compressed video (right).
 ![image](https://user-images.githubusercontent.com/29898879/110823627-4cafe800-8260-11eb-9b56-e18580e7fed8.png)
+
+The same frame from an example uncompressed (left, 8.07 GB) and 67x (x264Crf = 30) compressed video (right, 0.12 GB).
+![image](https://user-images.githubusercontent.com/29898879/112478910-daa0ce00-8d4a-11eb-9848-60760107f061.png)
+
